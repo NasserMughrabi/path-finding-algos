@@ -1,0 +1,28 @@
+import React from 'react'
+
+const Nav = () => {
+  return (
+    <nav className='navbar'>
+        <div className='header'>
+            <h2>Path Finding Visualizer</h2>
+        </div>
+        <div className="selects">
+            <select name="" id="">Choose Algorithm
+                <option value="Choose Algorithm">Choose Algorithm</option>
+                <option value="Breadth-First Search">Breadth-First Search</option>
+                <option value="Depth-First Search">Depth-First Search</option>
+                <option value="Dijkstra">Dijkstra</option>
+            </select>
+            <select name="" id="">Choose Speed
+                <option value="Choose Speed">Choose Speed</option>
+                <option value="slow">Slow</option>
+                <option value="moderate">Moderate</option>
+                <option value="fast">Fast</option>
+            </select>
+        </div>
+        
+    </nav>
+  )
+}
+
+export default Nav
