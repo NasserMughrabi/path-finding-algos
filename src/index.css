@@ -23,8 +23,9 @@
 
 .selects select {
   margin-right: 1rem;
-  width: 11rem;
-  height: 2rem;
+  width: 15rem;
+  height: 2.5rem;
+  font-size: 18px;
 }
 
 td {
@@ -75,7 +76,75 @@ table {
   margin-top: 2rem;
 }
 
-/* .footer button {
-  padding-right: 2px;
-} */
+.circle {
+  background: lightblue;
+  border-radius: 50%;
+  border: solid 1px black;
+  width: 100px;
+  height: 100px;
+}
+
+
+/* List */
+.list {
+  display: flex;
+  position: relative;
+  margin-bottom: 42vh;
+}
+.one {
+  margin-left: 30vw;
+}
+.two {
+    margin-left: 7vw;
+}
+.three {
+  position: absolute;
+  left: 30vw;
+  top: 24vh;
+}
+.four {
+  position: absolute;
+  left: 50vw;
+  top: 24vh;
+}
+.five {
+  position: absolute;
+  left: 16vw;
+  top: 12vh;
+}
+.diagnol-line-one, .diagnol-line-two {
+  border-bottom: 1px solid black;
+  width: 9vw;
+  transform: rotate(90deg);
+  margin-left: 4vw;
+  margin-bottom: 9vw;
+  transform-origin: top left;
+}
+.diagnol-line-three {
+  border-bottom: 1px solid black;
+  width: 12vw;
+  transform: rotate(0deg);
+  transform-origin: top left;
+  position: absolute;
+  left: 8vw;
+  top: 7vh;
+}
+.diagnol-line-five-top {
+  border-bottom: 1px solid black;
+  width: 10.7vw;
+  transform: rotate(-18deg);
+  transform-origin: top left;
+  position: absolute;
+  left: 4vw;
+  top: 0vh;
+}
+.diagnol-line-five-bottom {
+  border-bottom: 1px solid black;
+  width: 11.5vw;
+  transform: rotate(16deg);
+  transform-origin: top left;
+  position: absolute;
+  left: 3vw;
+  top: 12.1vh;
+}
 
