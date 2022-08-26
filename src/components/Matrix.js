@@ -57,7 +57,7 @@ const Matrix = () => {
           visited.push({ r: adjx, c: adjy });
           await new Promise (resolve => setTimeout(resolve, 20));
           document.getElementsByClassName(`${row}-${col}`)[0].style.background = '#289fc6';
-          document.getElementsByClassName(`${row}-${col}`)[0].style.border = 'solid 0.1px white';
+          document.getElementsByClassName(`${row}-${col}`)[0].style.border = 'solid 1px white';
         }
       }
     }
