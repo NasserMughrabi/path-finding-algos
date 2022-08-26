@@ -70,7 +70,11 @@ const Matrix = () => {
           return (
             <tr key={index}>
               {cols.map((col, index) => {
-                return <td className={row + "-" + col} key={index}></td>;
+                if(col > cols.length -8) {
+                  return <td className={row + "-" + col} id='last-col' key={index}></td>;
+                } else {
+                  return <td className={row + "-" + col} key={index}></td>;
+                }
               })}
             </tr>
           );
