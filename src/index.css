@@ -30,8 +30,8 @@
 }
 
 td {
-  width: 3vw;
-  height: 2.5vh;
+  width: 7vw;
+  height: 4.5vh;
   border: solid 1px #289fc6;
 }
 
@@ -39,12 +39,12 @@ table {
   display: table;
   border-collapse: collapse;
   margin: 0rem 0.5rem;
-  margin-bottom: 13.3rem;
+  margin-bottom: 5.5vh;
 }
 
-/* #last-col {
+#last-col {
   display: none;
-} */
+}
 
 
 .footer {
