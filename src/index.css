@@ -86,6 +86,12 @@ table {
   height: 100px;
 }
 
+@keyframes gradient {
+  100% {
+    background-position: 0%;
+  }
+}
+
 @media (min-width: 800px) {
   table {
     margin-bottom: 9.5vh;

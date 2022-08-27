@@ -1,5 +1,5 @@
 import React from "react";
-import BFS from "../Algorithms/BFS";
+import BFS from "../algorithms/BFS";
 
 // number of rows and cols to be displayed
 const rows = Array.from(Array(13).keys());
