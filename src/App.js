@@ -5,14 +5,14 @@
 import Nav from "./components/Nav"
 import Matrix from "./components/Matrix";
 import Footer from "./components/Footer";
-// import List from "./components/List";
+import Guide from "./components/Guide";
 
 function App() {
   return (
     <>
       <Nav />
+      <Guide />
       <Matrix />
-      {/* <List /> */}
       <Footer />
     </>
   );

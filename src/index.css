@@ -42,7 +42,7 @@ table {
   margin-bottom: 3.5vh;
 }
 
-#last-col {
+#only-pc-cols {
   display: none;
 }
 
@@ -87,11 +87,38 @@ table {
 }
 
 @media (min-width: 800px) {
-  
+  table {
+    margin-bottom: 9.5vh;
+  }
+  .navbar {
+    margin-bottom: 9.5vh;
+  }
+  .selects {
+    display: block;
+    text-align: left;
+  }
+
+  .selects select {
+    margin-left: 0.5rem;
+    width: 11rem;
+    height: 2.5rem;
+    font-size: 18px;
+  }
+  #only-pc-cols {
+    display: table-cell;
+  }
   td {
-    width: 3vw;
-    height: 5vh;
-    border: solid 0.1px #289fc6;
+    /* width: 3vw;
+    height: 5vh; */
+    width: 2vw;
+    height: 4vh;
+    border: solid 0.1px rgb(175, 216, 248);
+  }
+  .footer{
+    height: 10vh;
+  }
+  .btn {
+    margin-top: 1rem;
   }
 }
 

@@ -15,9 +15,9 @@ const Nav = () => {
             </select>
             <select name="" id="">
                 <option value="Choose Maze/Pattern">Maze/Pattern</option>
-                <option value="slow">Slow</option>
-                <option value="moderate">Moderate</option>
-                <option value="fast">Fast</option>
+                <option value="slow">Maze1</option>
+                <option value="moderate">Pattern1</option>
+                <option value="fast">Maze2</option>
             </select>
             <select name="" id="">
                 <option value="Choose Speed">Speed</option>
@@ -26,7 +26,6 @@ const Nav = () => {
                 <option value="fast">Fast</option>
             </select>
         </div>
-        
     </nav>
   )
 }
